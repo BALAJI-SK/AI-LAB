@@ -79,7 +79,7 @@ def iddfs(src, target, depth):
 # target=[1,2,3,6,4,5,-1,7,8]
 src = [1, 2, 3, -1, 4, 5, 6, 7, 8]
 target = [1, 2, 3, 4, 5, -1, 6, 7, 8]
-depth = 0
+depth = 2
 val = iddfs(src, target, depth)
 if val != -1:
     print("Depth found At : ",val)
